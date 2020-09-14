@@ -1,0 +1,8 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Directory\shell\FolderIcon]
+@="&FolderIcon"
+"Icon"="%SystemRoot%\\System32\\SHELL32.dll,141"
+
+[HKEY_CLASSES_ROOT\Directory\shell\FolderIcon\command]
+@="\"%CD%\FolderIcon.bat\" \"%1\""
